@@ -1,6 +1,6 @@
 # Movie Finder
 <p align="center">
-  <img width="150" height="150" src="movie.png![image](https://user-images.githubusercontent.com/44911690/114464051-89fff080-9be5-11eb-803d-866fe454aba3.png)">
+  <img width="150" height="150" src="movie.png")>
 </p>
 
 Movie Finder is a [Telegram](https://telegram.org/) bot that helps you quickly check basic movie information, such as release date, runtime or cast and crew members. Open a chat with [@Movie_finder_info_bot](http://telegram.me/Movie_finder_info_bot) on Telegram to try it out.
