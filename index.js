@@ -33,6 +33,6 @@ bot.onText(/\/start/, function(msg,match) {
 
 bot.onText(/\/about/, function(msg,match) {
     var chatId = msg.chat.id;
-    bot.sendMessage(chatId, '🎬 *Movie Finder* is a bot for Telegram developed by Lorenzo Lancia. \n \nIt is a project developed to test the functionality of Telegram bots. Code is available in the GitHub repository and is constantly updated. \n \nMovie Finder uses OMDb API.', {parse_mode:'Markdown'});
+    bot.sendMessage(chatId, '🎬 *Movie Finder* is a bot for Telegram developed by [Lorenzo Lancia](https://twitter.com/LanciaLorenzo). \n \nIt is a project developed to test the functionality of Telegram bots. Code is available in the [GitHub repository](https://github.com/LorenzoLancia/Movie-Finder-bot) and is constantly updated. \n \nMovie Finder uses OMDb API.', {parse_mode:'Markdown'});
 });
 
