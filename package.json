@@ -1,16 +1,20 @@
 {
   "name": "movie-finder-bot",
-  "version": "1.0.0",
-  "private": true,
-  "description": "",
+  "version": "1.0.3",
+  "description": "Starter pack for running telegram bot on the Heroku using Node.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "switch_to_dev": "export $(cat .env | xargs) && wget --spider https://api.telegram.org/bot$TOKEN/setWebhook?url= --delete-after && node index.js"
   },
-  "author": "",
+  "author": "Volodymyr Lut",
   "license": "ISC",
   "dependencies": {
-    "node-telegram-bot-api": "^0.51.0",
+    "body-parser": "^1.15.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.13.4",
+    "node-telegram-bot-api": "^0.30.0",
     "request": "^2.88.2"
   }
 }
