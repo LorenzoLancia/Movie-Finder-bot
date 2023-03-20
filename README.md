@@ -11,6 +11,9 @@ Movie Finder is a [Telegram](https://telegram.org/) bot that helps you quickly c
 ## Technology
 The bot is built with [Node.js](https://nodejs.org) and [node-telegram-bot-api](https://github.com/yagop/node-telegram-bot-api) a module to interact with the official Telegram Bot Api. Movie Finder is online 24 hours a day deployed thanks to [Heroku](https://heroku.com/).
 
+⚠️ **Please note**: the bot is currently no longer online because the basic Heroku service is no longer free. 
+To customize your telegram bot and see it online, we recommend using another hosting service (free or not)
+
 ## Contributions
 Movie Finder is open to contributions, I recommend creating a fork before request a pull request.
 
